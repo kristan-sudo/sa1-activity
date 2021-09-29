@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  .lab{
+    background: #000000;
+    background: linear-gradient(to right, #161616, #000000);
+    padding: 200px 0;
+  }
+
+  .lab_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .lab h1{
+    font-size: 89px;
+    margin-bottom: 24px;
+    color: #fff;
+  }
+
+  .lab span {
+    background: #ee0979; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #ff6a00,
+      #ee0979
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #ff6a00,
+      #ee0979
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -mo-text-fill-color: transparent;
+  }
+
+  .lab h2{
+    font-size: 70px;
+    background: #fc00ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+
+  .button {
+    font-size: 50px;
+    background: #833ab4;
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    padding: 20px 60px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+    padding-bottom: 24px;
+  }
+  
+  .button a {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .button:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #003cff;
+    transition: all 0.35s;
+    border-radius: 4px;
+  }
+  
+  .button:hover {
+    color: #fff;
+  }
+
+  .main__btn:hover:after {
+    width: 100%;
+  }
+
+  .lab hr{
+    color:#fff;
+  }
+  .page-header{
+    color:rgb(0, 0, 0);
+  }
+ .page {
+  background-image: linear-gradient(to right top, #1b00ff, #0065ff, #0091ff, #00b5ff, #00d3ff, #00d3ff, #00d3ff, #00d3ff, #00b5ff, #0091ff, #0065ff, #1b00ff);
+  background-size: cover;
+  
+ }
+ 
+
+ .page h1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font: italic small-caps bold 16px/2 cursive;
+  color:rgb(0, 0, 0);
+  font-size: 60px;
+  padding: 100px;
+}
+
+.page li{
+  color:rgb(0, 0, 0);
+  font-size: 30px;
+  padding: 100px;
+}
+
+.page p{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:rgb(0, 0, 0);
+  font-size: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 50px;
+}
+
+.page img{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 24px;
+}
+
+.page table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr {
+  background-color: #9900ff;
+}
+
+ 
